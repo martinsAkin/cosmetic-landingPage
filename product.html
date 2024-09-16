@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Shopping web page</title>
+ <!-- <script>
+  fetch('header.html').then(response => response.text()).then(data => {
+    document.getElementById('header').innerHTML = data;
+  })
+</script> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link
+href="https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap"
+rel="stylesheet"
+></link>
+<style>
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: 'satoshi';
+    user-select: none;
+  }
+  .headbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-top: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3em;
+    font-weight: bold;
+    font-family: 'satoshi';
+    align-items: center;
+  }
+  .headbar img{
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+  }
+  .headbar ol{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    /* background-color: black; */
+    color: black;
+    width: 50rem;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+  }
+  li{
+    padding: 0.3rem;
+  }
+  li:hover{
+    text-decoration: underline black;
+
+  }
+  .head-icons{
+    display: flex;
+    gap: 1rem;
+  }
+  section{
+    display: flex;
+    justify-content: center;
+  }
+  #section{
+    width: 35rem;
+  }
+  #section h1{
+    font-size: 40px;
+    width: 50rem;
+    margin-left: -9rem;
+  }
+  #section h3{
+    text-align: center;
+  }
+  button{
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px black solid;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  button:hover{
+    background-color: black;
+    color: gold;
+  }
+</style>
+</head>
+<body>
+<div class="body">
+  
+    <div class="headbar">
+  
+      <div class="logo"><img src="/cosmetics/makeup-logo-removebg-preview.png" alt=""></div>
+  
+      <div>
+        <ol>
+          <li>Home</li>
+          <li>Products</li>
+          <li>Manufacturers</li>
+          <li>Contact Us</li>
+        </ol>
+      </div>
+  
+      <div class="head-icons">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-cart-shopping"> <div id="noti-red"></div>
+        </i>
+        <i class="fa-regular fa-bell"></i>
+      </div>
+  
+    </div>
+  
+    <section>
+      <div id="section">
+        <h1 style="text-align: center; letter-spacing: 1.9px;">Unlock Your Radiance with<span style="display: block; color: rgb(165, 6, 6);"> D'ABSOLUTE COSMETICS</span></h1>
+        <span style="display: block; margin-top: 1rem; text-align: center; font-size: 20px; margin-left: -1rem;">where premium skincare meets your Glamorous Beauty. Elevate Your Looks, Nourish Your Skin, and Let Your Confidence Shine Every Day!</h3>
+          <div style="display: block;">
+            <button>Check Products</button>
+            <button>Become A Dealer</button>
+          </div>
+        </div>
+    </section>
+<div style="display: flex; justify-content: space-around; margin-bottom: -100rem;">
+  
+      <img src="/cosmetics/beautiful-lady-applying-face-powder-on-face.svg" style="height: 20rem;">
+      <img src="/cosmetics/women-taking-selfie-together.svg" style="height: 20rem;">
+  
+</div>
+</div>
+</body>
+</html>
